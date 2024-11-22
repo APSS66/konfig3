@@ -1,0 +1,9 @@
+# Конфигурация веб-приложения
+server_port = 8080
+database_url = "mysql://user:password@localhost/db"
+
+table([
+    logging_level = "DEBUG",
+    max_connections = 100,
+])
+
